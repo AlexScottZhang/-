@@ -100,16 +100,43 @@
             </objects>
             <point key="canvasLocation" x="1432.8" y="112.89355322338831"/>
         </scene>
-        <!--View Controller-->
+        <!--结果-->
         <scene sceneID="XPE-Ha-ota">
             <objects>
                 <viewController id="fXM-SO-pT4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ePH-Gz-Wau">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="c8F-cF-t0b">
+                                <rect key="frame" x="0.0" y="293.5" width="375" height="80.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYp-7m-H42">
+                                        <rect key="frame" x="129" y="0.0" width="117" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVo-rx-F8o">
+                                        <rect key="frame" x="166.5" y="60" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jrx-xK-OWJ" firstAttribute="trailing" secondItem="c8F-cF-t0b" secondAttribute="trailing" id="ch4-wy-f9k"/>
+                            <constraint firstItem="c8F-cF-t0b" firstAttribute="centerY" secondItem="ePH-Gz-Wau" secondAttribute="centerY" id="nGr-TV-ooT"/>
+                            <constraint firstItem="c8F-cF-t0b" firstAttribute="leading" secondItem="jrx-xK-OWJ" secondAttribute="leading" id="pss-CX-kCb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jrx-xK-OWJ"/>
                     </view>
+                    <navigationItem key="navigationItem" title="结果" id="2wR-66-iTZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="vcd-rB-d7K"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ssc-Ij-3hV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
