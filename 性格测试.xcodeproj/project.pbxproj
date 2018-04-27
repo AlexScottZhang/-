@@ -14,6 +14,7 @@
 		355583F92093009700A0512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355583F72093009700A0512E /* LaunchScreen.storyboard */; };
 		355584012093067C00A0512E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355584002093067C00A0512E /* QuestionViewController.swift */; };
 		355584032093068A00A0512E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355584022093068A00A0512E /* ResultsViewController.swift */; };
+		355584052093116700A0512E /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355584042093116700A0512E /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		355583FA2093009700A0512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355584002093067C00A0512E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		355584022093068A00A0512E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		355584042093116700A0512E /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				355583EE2093009600A0512E /* AppDelegate.swift */,
 				355583F02093009600A0512E /* IntroductionViewController.swift */,
 				355583F22093009600A0512E /* Main.storyboard */,
+				355584042093116700A0512E /* QuestionData.swift */,
 				355584002093067C00A0512E /* QuestionViewController.swift */,
 				355584022093068A00A0512E /* ResultsViewController.swift */,
 				355583F52093009700A0512E /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				355583F12093009600A0512E /* IntroductionViewController.swift in Sources */,
 				355583EF2093009600A0512E /* AppDelegate.swift in Sources */,
+				355584052093116700A0512E /* QuestionData.swift in Sources */,
 				355584012093067C00A0512E /* QuestionViewController.swift in Sources */,
 				355584032093068A00A0512E /* ResultsViewController.swift in Sources */,
 			);
