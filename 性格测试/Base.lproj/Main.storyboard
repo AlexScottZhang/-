@@ -89,6 +89,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUB-aC-lqp">
+                                <rect key="frame" x="16" y="84" width="343" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bkO-qZ-dHK" userLabel="Single Answer Stack View">
                                 <rect key="frame" x="16" y="243.5" width="46" height="180"/>
                                 <subviews>
@@ -204,12 +210,6 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUB-aC-lqp">
-                                <rect key="frame" x="16" y="84" width="343" height="38.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4bd-mS-yGc">
                                 <rect key="frame" x="16" y="645" width="343" height="2"/>
                             </progressView>
@@ -235,8 +235,20 @@
                     </view>
                     <navigationItem key="navigationItem" id="tFd-1U-63a"/>
                     <connections>
+                        <outlet property="multiLabel1" destination="mdD-vY-Jv0" id="bly-lz-Gux"/>
+                        <outlet property="multiLabel2" destination="NmZ-0s-jvJ" id="KgD-Ta-MrC"/>
+                        <outlet property="multiLabel3" destination="xEV-yB-Mgb" id="WWo-Ft-DLY"/>
+                        <outlet property="multiLabel4" destination="e0W-pj-BLr" id="oYP-n9-ZdG"/>
                         <outlet property="multipleStackView" destination="pe6-qr-oBM" id="GwA-rm-6nK"/>
+                        <outlet property="questionLabel" destination="lUB-aC-lqp" id="hSU-6g-wwa"/>
+                        <outlet property="questionProgressView" destination="4bd-mS-yGc" id="6IX-eW-z5W"/>
+                        <outlet property="rangedLabel1" destination="orT-N7-VDo" id="Q8j-SG-4Ng"/>
+                        <outlet property="rangedLabel2" destination="MmZ-6w-GGT" id="VKk-n6-UOf"/>
                         <outlet property="rangedStackView" destination="YoH-mh-bwR" id="u1U-Zu-03S"/>
+                        <outlet property="singleButton1" destination="0lf-H6-NlH" id="L2T-8u-pz2"/>
+                        <outlet property="singleButton2" destination="mL2-FV-OFg" id="I5W-pb-8sL"/>
+                        <outlet property="singleButton3" destination="heA-Gm-t0H" id="o0V-pm-AdY"/>
+                        <outlet property="singleButton4" destination="5Ck-90-lEM" id="21i-44-BhH"/>
                         <outlet property="singleStackView" destination="bkO-qZ-dHK" id="9Uh-Q1-VGf"/>
                         <segue destination="fXM-SO-pT4" kind="show" identifier="ResultsSegue" id="LJT-dk-2mX"/>
                     </connections>
