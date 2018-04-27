@@ -204,16 +204,31 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUB-aC-lqp">
+                                <rect key="frame" x="16" y="84" width="343" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4bd-mS-yGc">
+                                <rect key="frame" x="16" y="645" width="343" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4bd-mS-yGc" secondAttribute="trailing" constant="16" id="99i-SC-pAd"/>
+                            <constraint firstItem="4bd-mS-yGc" firstAttribute="leading" secondItem="IXf-qG-uUm" secondAttribute="leading" constant="16" id="DdY-Oq-xTh"/>
                             <constraint firstItem="U6H-cd-1cM" firstAttribute="trailing" secondItem="YoH-mh-bwR" secondAttribute="trailing" constant="16" id="K4g-uZ-jGc"/>
                             <constraint firstItem="bkO-qZ-dHK" firstAttribute="centerY" secondItem="IXf-qG-uUm" secondAttribute="centerY" id="OpW-3D-cMA"/>
                             <constraint firstItem="YoH-mh-bwR" firstAttribute="centerY" secondItem="IXf-qG-uUm" secondAttribute="centerY" id="T1h-N9-DVF"/>
+                            <constraint firstItem="U6H-cd-1cM" firstAttribute="trailing" secondItem="lUB-aC-lqp" secondAttribute="trailing" constant="16" id="UGo-Hb-cHX"/>
                             <constraint firstItem="pe6-qr-oBM" firstAttribute="centerY" secondItem="IXf-qG-uUm" secondAttribute="centerY" id="Uji-eD-v7W"/>
                             <constraint firstItem="YoH-mh-bwR" firstAttribute="leading" secondItem="U6H-cd-1cM" secondAttribute="leading" constant="16" id="agU-R6-GZC"/>
+                            <constraint firstItem="U6H-cd-1cM" firstAttribute="bottom" secondItem="4bd-mS-yGc" secondAttribute="bottom" constant="20" id="cUf-Hp-SQ0"/>
                             <constraint firstItem="bkO-qZ-dHK" firstAttribute="leading" secondItem="U6H-cd-1cM" secondAttribute="leading" constant="16" id="gF3-8p-vW8"/>
+                            <constraint firstItem="lUB-aC-lqp" firstAttribute="leading" secondItem="U6H-cd-1cM" secondAttribute="leading" constant="16" id="kmK-20-eoT"/>
                             <constraint firstItem="U6H-cd-1cM" firstAttribute="trailing" secondItem="pe6-qr-oBM" secondAttribute="trailing" constant="16" id="qZk-Wk-oKX"/>
+                            <constraint firstItem="lUB-aC-lqp" firstAttribute="top" secondItem="U6H-cd-1cM" secondAttribute="top" constant="20" id="sgu-Jx-hL1"/>
                             <constraint firstItem="pe6-qr-oBM" firstAttribute="leading" secondItem="U6H-cd-1cM" secondAttribute="leading" constant="16" id="vpo-bs-EoC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="U6H-cd-1cM"/>
