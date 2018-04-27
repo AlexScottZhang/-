@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		355583EF2093009600A0512E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355583EE2093009600A0512E /* AppDelegate.swift */; };
-		355583F12093009600A0512E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355583F02093009600A0512E /* ViewController.swift */; };
+		355583F12093009600A0512E /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355583F02093009600A0512E /* IntroductionViewController.swift */; };
 		355583F42093009600A0512E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355583F22093009600A0512E /* Main.storyboard */; };
 		355583F62093009700A0512E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355583F52093009700A0512E /* Assets.xcassets */; };
 		355583F92093009700A0512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355583F72093009700A0512E /* LaunchScreen.storyboard */; };
+		355584012093067C00A0512E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355584002093067C00A0512E /* QuestionViewController.swift */; };
+		355584032093068A00A0512E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355584022093068A00A0512E /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		355583EB2093009600A0512E /* 性格测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "性格测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355583EE2093009600A0512E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		355583F02093009600A0512E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		355583F02093009600A0512E /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		355583F32093009600A0512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		355583F52093009700A0512E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355583F82093009700A0512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		355583FA2093009700A0512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355584002093067C00A0512E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		355584022093068A00A0512E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				355583EE2093009600A0512E /* AppDelegate.swift */,
-				355583F02093009600A0512E /* ViewController.swift */,
+				355583F02093009600A0512E /* IntroductionViewController.swift */,
 				355583F22093009600A0512E /* Main.storyboard */,
+				355584002093067C00A0512E /* QuestionViewController.swift */,
+				355584022093068A00A0512E /* ResultsViewController.swift */,
 				355583F52093009700A0512E /* Assets.xcassets */,
 				355583F72093009700A0512E /* LaunchScreen.storyboard */,
 				355583FA2093009700A0512E /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				355583F12093009600A0512E /* ViewController.swift in Sources */,
+				355583F12093009600A0512E /* IntroductionViewController.swift in Sources */,
 				355583EF2093009600A0512E /* AppDelegate.swift in Sources */,
+				355584012093067C00A0512E /* QuestionViewController.swift in Sources */,
+				355584032093068A00A0512E /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

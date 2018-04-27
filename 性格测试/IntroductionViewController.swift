@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  IntroductionViewController.swift
 //  性格测试
 //
 //  Created by HhhotDog on 2018/4/27.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class IntroductionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
