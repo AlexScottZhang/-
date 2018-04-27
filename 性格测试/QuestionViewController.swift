@@ -9,6 +9,13 @@
 import UIKit
 
 class QuestionViewController: UIViewController {
+    //MARK: Properties    
+    @IBOutlet weak var singleStackView: UIStackView!
+    @IBOutlet weak var multipleStackView: UIStackView!
+    @IBOutlet weak var rangedStackView: UIStackView!
+    
+    var questionIndex = 0
+    
     var questions: [Question] = [
         Question(text: "Which food do you like the most?",
                  type: .single,
@@ -41,12 +48,28 @@ class QuestionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        updateUI()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK: Utilities
+    //更改标题，并根据题目类型呈现不同问答方式
+    func updateUI() {
+        singleStackView.isHidden = true
+        multipleStackView.isHidden = true
+        rangedStackView.isHidden = true
+        
+        navigationItem.title = "问题 #\(questionIndex + 1)"
+        
+        let currentQuestion = questions[questionIndex]
+        
+        switch currentQuestion.type {
+        case .single:
+            singleStackView.isHidden = false
+        case .multiple:
+            multipleStackView.isHidden = false
+        case .ranged:
+            rangedStackView.isHidden = false
+        }
     }
     
 
