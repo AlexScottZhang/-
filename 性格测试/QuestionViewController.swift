@@ -40,29 +40,29 @@ class QuestionViewController: UIViewController {
     var answersChosen: [Answer] = []
     
     var questions: [Question] = [
-        Question(text: "Which food do you like the most?",
+        Question(text: "你最喜欢下面那种食物?",
                  type: .single,
                  answers: [
-                    Answer(text: "Steak", type: .dog),
-                    Answer(text: "Fish", type: .cat),
-                    Answer(text: "Carrots", type: .rabbit),
-                    Answer(text: "Corn", type: .turtle)
+                    Answer(text: "牛排", type: .dog),
+                    Answer(text: "鱼类", type: .cat),
+                    Answer(text: "胡萝卜", type: .rabbit),
+                    Answer(text: "玉米", type: .turtle)
             ]),
-        Question(text: "Which activities do you enjoy?",
+        Question(text: "你最喜欢下面哪些活动/运动?",
                  type: .multiple,
                  answers: [
-                    Answer(text: "Swimming", type: .turtle),
-                    Answer(text: "Sleeping", type: .cat),
-                    Answer(text: "Cuddling", type: .rabbit),
-                    Answer(text: "Eating", type: .dog)
+                    Answer(text: "游泳", type: .turtle),
+                    Answer(text: "睡觉", type: .cat),
+                    Answer(text: "拥抱", type: .rabbit),
+                    Answer(text: "吃", type: .dog)
             ]),
-        Question(text: "How much do you enjoy car rides?",
+        Question(text: "你有多喜欢汽车竞速比赛?",
                  type: .ranged,
                  answers: [
-                    Answer(text: "I dislike them", type: .cat),
-                    Answer(text: "I get a little nervous", type: .rabbit),
-                    Answer(text: "I barely notice them", type: .turtle),
-                    Answer(text: "I love them", type: .dog)
+                    Answer(text: "一点儿不喜欢", type: .cat),
+                    Answer(text: "令人紧张", type: .rabbit),
+                    Answer(text: "稍微留意", type: .turtle),
+                    Answer(text: "非常热爱", type: .dog)
             ])
     ]
     

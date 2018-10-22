@@ -29,13 +29,13 @@ enum AnimalType: Character {
     var definition: String {
         switch self {
         case .dog:
-            return "You are incredibly outgoing. You surround yourself with the people you love and enjoy acticities with your friends."
+            return "你非常外向. 你喜欢与朋友聚会，热爱团体活动"
         case .cat:
-            return "Mischievous, yet mild-tempered, you enjoy doing things on your own term."
+            return "喜欢有趣的事情，脾气温和, 你喜欢独自完成许多事情."
         case .rabbit:
-            return "You love everything that's soft. You are healthy and full of energy."
+            return "你喜欢一切软软的食物. 健康而又充满活力."
         case .turtle:
-            return "You are wise beyond your years, and you focus on the details. Slow and steady wins the race."
+            return "你拥有超出年龄的智慧，注重细节。稳重，稳定，就是稳"
         }
     }
 }
